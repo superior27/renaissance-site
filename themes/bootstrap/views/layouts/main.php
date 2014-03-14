@@ -6,7 +6,7 @@
 	<meta name="language" content="en" />
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" />
-
+   
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
 	<?php Yii::app()->bootstrap->register(); ?>
@@ -16,16 +16,14 @@
 
 <?php $this->widget('bootstrap.widgets.TbNavbar',array(
     'type'=>'inverse',
+    'collapse'=>'true',
     'items'=>array(
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
                 array('label'=>'Sobre', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Usuário', 'url'=>array('/user/index')),
-				array('label'=>'Fornecedor', 'url'=>array('/provider/index')),
-				array('label'=>'Matéria-Prima', 'url'=>array('/feedstock/index')),
-				array('label'=>'Peças', 'url'=>array('/clothing/index')),
+				array('label'=>'Usuário', 'url'=>array('/user/index')),				
                 array('label'=>'Contato', 'url'=>array('/site/contact')),
                 array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
@@ -51,13 +49,13 @@
 	</br>
 	</br>
 	</br>
-	<div id="footer">
+	
+
+</div><!-- page -->
+<div id="footer">
 		Criado por  <!--<?php echo date('Y'); ?>--> CommSystem.<br/>
 		Todos os direitos reservados.<br/>
 		<?php echo Yii::powered(); ?>
 	</div><!-- footer -->
-
-</div><!-- page -->
-
 </body>
 </html>

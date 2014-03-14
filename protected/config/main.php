@@ -9,7 +9,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
 
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Styllo Urbano',
+	'name'=>'Renascença',
 
 	// preloading 'log' component
 	'preload'=>array('log','bootstrap'),

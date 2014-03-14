@@ -1,0 +1,268 @@
+2014/03/14 07:51:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "user/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/index')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/user/index
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/contact
+---
+2014/03/14 08:54:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "renaissance-site" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('renaissance-sit...')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('renaissance-sit...')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/renaissanc...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/renaissance-site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 08:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "renaissance-site" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('renaissance-sit...')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('renaissance-sit...')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/renaissanc...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/renaissance-site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 08:55:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "renaissance-site" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('renaissance-sit...')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('renaissance-sit...')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/renaissanc...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/renaissance-site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 08:56:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "renaissance-site" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('renaissance-sit...')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('renaissance-sit...')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/renaissanc...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/renaissance-site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 08:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "user/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/index')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/user/index
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/page?view=about
+---
+2014/03/14 09:22:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:22:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/Black-and-White-Lace.jpg".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Black-an...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/Black-and-White-Lace.jpg".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Black-an...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/Black-and-White-Lace.jpg".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Black-an...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:28:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/Black-and-White-Lace.jpg".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Black-an...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:30:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+---
+2014/03/14 09:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/Black-and-White-Lace.jpg".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Black-an...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
+2014/03/14 09:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/Bla...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/site/images/Black-and-White-Lace.jpg
+---
+2014/03/14 09:40:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/Black-and-White-Lace.jpg".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Black-an...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/workspace_php/renaissance-site/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/workspace_php/renaissance-site/index.php/images/Black-and-White-Lace.jpg
+HTTP_REFERER=http://127.0.0.1/workspace_php/renaissance-site/index.php/site/index
+---
