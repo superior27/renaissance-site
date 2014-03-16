@@ -3,11 +3,11 @@
 
 $this->pageTitle=Yii::app()->name;
 ?>
-<!--<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/Black-and-White-Lace.jpg');?>-->
+<!--<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/Black-and-White-Lace.jpg');?>
 <?php $this->beginWidget('bootstrap.widgets.TbHeroUnit',array(
     'heading'=>CHtml::encode(Yii::app()->name),
 )); ?>
-<?php $this->endWidget(); ?>
+<?php $this->endWidget(); ?>-->
 <!--<p>Congratulations! You have successfully created your Yii application.</p>
 -->
 
@@ -25,43 +25,80 @@ $this->pageTitle=Yii::app()->name;
     should you have any questions.</p>
 
 -->
-<?php $this->widget('bootstrap.widgets.TbCarousel', array(
-    'items'=>array(
-        array('image'=>'http://placehold.it/770x400&text=First+thumbnail', 'label'=>'First Thumbnail label', 'caption'=>'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'),
-        array('image'=>'http://placehold.it/770x400&text=Second+thumbnail', 'label'=>'Second Thumbnail label', 'caption'=>'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'),
-        array('image'=>'http://placehold.it/770x400&text=Third+thumbnail', 'label'=>'Third Thumbnail label', 'caption'=>'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'),
-    ),
-)); ?>
-
-<a href="google">nome</a>
 <div class="row-fluid">
 	
-	<div class="span4">
+	<div class="span12" >
+<?php $this->widget('bootstrap.widgets.TbCarousel', array(
+    'items'=>array(
+        array('image'=>'images/modelo8.png', 'label'=>'First Thumbnail label', 'caption'=>'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'),
+        array('image'=>'images/modelo6.jpg', 'label'=>'Second Thumbnail label', 'caption'=>'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'),
+        array('image'=>'images/modelo4.jpg', 'label'=>'Third Thumbnail label', 'caption'=>'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'),
+    ),
+    'htmlOptions'=>array('width'=>'50%','height'=>'10%')
+)); ?>
+</div>
+<div class="offset2"></div>
+</div>
+
+
+<div class="row-fluid">
+	<div class="span12">
+	
+	<div class="span4  alert alert-info">
+		<a href="index.php/site/page?view=about" title="Sobre">
+				<img src ="images/info.png" class="span3">
+			</a> 
 		<h2>
-			Título
+			Sobre
 		</h2>
+	</br>
 		<p>
-			Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+			//Criar um texto aqui para falar um pouco sobre o "soubre"
+			</p>
+			
+		
+	</div>
+
+	<div class="span4 alert alert-info">
+		<a href="index.php/site/page?view=about" title="Vitrine">
+				<img src ="images/modelos1.png" class="span3">
+		</a> 
+		<h2>
+			Vitrine
+		</h2>
+	</br>
+		<p>
+			Fique por dentro dos nossos principais modelos
+			//incrementar com um texto um pouco maior
 		</p>
 	</div>
 
-	<div class="span4">
-		<h2>
-			Título2
-		</h2>
+	<div class="span4 alert alert-info">
+		<h1>
+			Redes Sociais
+		</h1>
+		
 		<p>
-			Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+			<a href="http://facebook.com" rel="external" title="Facebook">
+				<img src ="images/facebook2.png" class="span3">
+			</a>
+		
+
+		
+			<a href="http://twitter.com" rel="external" title="Twitter">
+				<img src ="images/twitter1.png" class="span3">
+			</a>
+
+			<a href="http://plus.google.com" rel="external" title="Google+">
+				<img src ="images/google+.png" class="span3">
+			</a>
+
+		
+			<a href="http://instagram.com" rel="external" title="Instagram">
+				<img src ="images/instagram1.png" class="span3">
+			</a>
 		</p>
 	</div>
 
-	<div class="span4">
-		<h2>
-			Título3
-		</h2>
-		<p>
-			Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
-		</p>
-	</div>
-
-
+</div>
 </div>
