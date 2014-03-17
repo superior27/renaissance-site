@@ -8,12 +8,12 @@
 .backgroud1{
 
     
- background-image:url('../../../images/Lace-seamless-pattern-with-flowers.jpg');
-        padding: 60px;
-margin-bottom: 30px;
+ background-color:#F2F2F2;
+        padding: 0px;
+margin-bottom: 0px;
 font-size: 18px;
 font-weight: 20;
-line-height: 30px;
+line-height: 0px;
 webkit-border-radius: 6px;
 moz-border-radius: 6px;
 border-radius: 6px;
@@ -23,12 +23,33 @@ width:100%;
 
 
 
+
+}
+
+.backgroud2{
+
+    
+ background-color:#FFFAFA;
+        padding: 0px;
+margin-bottom: 30px;
+font-size: 18px;
+font-weight: 20;
+line-height: 30px;
+webkit-border-radius: 6px;
+moz-border-radius: 6px;
+border-radius: 6px;
+margin-top: 30px;
+height:100%;
+width:70%;
+
+
+
 }
 
 
 
 .hero-unit1 {
- background-image:url('../../../images/pia9zEdid.jpg');
+ /*background-image:url('../../../images/pia9zEdid.jpg');*/
 padding: 60px;
 margin-bottom: 30px;
 font-size: 18px;
@@ -46,6 +67,9 @@ border-radius: 6px;
 	color: #777;
 	border-top: 1px solid #e5e5e5;
 	background: #f5f5f5;
+margin-bottom: 30px;
+
+
 	
 
 }
