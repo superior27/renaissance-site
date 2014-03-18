@@ -231,10 +231,11 @@
                 <div class="footer-border"></div>
                 <div class="row">
                     <div class="copyright span4">
-                    	<p class="pull-right"><a href="#">Voltar ao topo</a></p>
+                    	
 				
                         <p>Copyright <!--<?php echo date('Y'); ?>--> CommSystem.<br/> - All rights reserved <a href="http://azmind.com">CommSystem</a>.</p>
                     </div>
+                    <p class="pull-right"><a href="#">Voltar ao topo</a></p>
                     <div class="social span8">
                         <a class="facebook" href=""></a>
                         <a class="googleplus" href=""></a>
